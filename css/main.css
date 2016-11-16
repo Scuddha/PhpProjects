@@ -1,0 +1,150 @@
+/*
+.centertext
+Used in header and contact page 
+*/
+
+.centertext a {
+	list-style: none;
+}
+
+.centertext {
+	text-align: center;
+	border-width: 40px;
+	border: double;
+	border-color: blue;
+	color: blue;
+	list-style: none;
+}
+
+/*
+takes a decoration from links
+*/
+
+a {
+  text-decoration:none;
+}
+
+/*
+The next 4 style the image gallery
+*/
+
+
+#gallery {
+  margin: 1.1em;
+  padding : 1.1em;
+  list-style: none;
+}
+
+#gallery li {
+  text-align: center;
+  /*float: left;*/
+  width: 90%;
+  margin: 3.5%;
+  background-color:#cee1ff;
+  color: #6aa2fc;
+}
+
+
+#gallery li a p {
+  margin: 0;
+  padding-top: 25px;
+  padding: 5%;
+  font-size: 0.75em;
+  color: blue;
+  text-align: center;
+}
+
+#gallery img {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	max-height: 95%;
+	max-width: 95%;
+	text-align: center;
+}
+
+/*
+next 2 style the media image for deatails.php and contact.php
+*/
+
+.mediaimage img {
+	padding: 25px;
+	max-height: 95%;
+	max-width: 95%;
+}
+
+.mediaimage li {
+  text-align: center;
+  /*float: left;*/
+  width: 500px;
+  margin: 3.5%;
+  /*background-color:#9e8ccc;
+  color: #6284ba;*/
+}
+
+/*
+styles the header
+*/
+
+#foureyes {
+	background-color: #cee1ff; 
+    height:100%;
+    margin:auto;
+    position: relative;
+    /*background-size: 100% 100%;
+    padding: 10px 10px;*/
+    /*border-style: groove;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#foureyes li{
+	list-style: none;
+}
+
+#foureyes li a {
+	color: blue;
+}
+
+/*
+Styles contact form div
+*/
+
+#contactform {
+	border-radius: 10px;
+    background-color: #cee1ff;
+    padding: 30px;
+}
+
+/*
+Styles footer
+*/
+
+#footerid {
+	text-align: center;
+	color: blue;
+}
+
+/*
+next 2 make all h1 and h3 headlines blue 
+*/
+
+h1{
+	color: blue;
+}
+
+h3{
+	color: blue;
+}
+
+/*
+centers h1 and h3 headlines inside wrapper class
+*/
+.wrapper h1 {
+	text-align: center;
+} 
+ 
+
+.wrapper h3 {
+	text-align: center;
+} 
+

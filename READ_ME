@@ -1,0 +1,93 @@
+READ_ME
+
+Scott Harrett
+11-15-16 
+
+My name is Scott Harrett and this is my project for Code Louisville's Fall 2016 PHP tenure.
+I made a website that will display my Oil Paintings using PHP and MySql. I used MAMP to run 
+and test my webpages and database locally on my macbook. 
+
+This is a work in progress (like many of my paintings!) and I would like to eventually host this 
+website live but it is still in the production phase right now. I own scuddha.com and that is where the 
+prject name came from. I want to eventually build websites for other artists I know, as well. I also own 
+youcantaffordthisart.com and want to make a website that feature many lacal artists.  This project has 
+given me a lot of knowledge I need get started on all these projects!
+
+The database used is called Paint and the table is called paints.  I have incuded a file that can 
+be used to import my local database.  It is called localdb.sql
+
+The home page of my website is called scuddha.php.  It has two links in the header that link to the
+home page and a contact page (contact.php).  The home page features the different images that link to
+a details page(details.php) that display the image and the details about the painting.  The contact page
+has a form that can be submitted to send an email to me with name and email info. 
+
+There are two files that must be accessed through the URL (addpaint.php and simpleinsert.php).  
+addpaint.php provides a form that updates the detail of a painting to the local database.  
+It does not add the image. The image has to be uploaded separately.  I will eventually change this to 
+either upload the image with the form or reject the form if the file for the image does not exist.
+Right now I am deleting the test input using PhpMyAdmin after the test because it will appear on the home 
+page as a list item but without an image. Simpleinsert.php is a static way of doing that. If you run the 
+webpage in the browser it will automatically update the table paints. This is for testing only.
+
+
+
+Even though my website is not complete and still in production, I beleive I have met all the project requiremants
+for Code Louisville 
+
+* Your project is responsive to different devices and/or browser sizes/resolutions
+
+	I used bootstrap to acheive this.  The grid system helped make my website responsive
+
+* Must implement your core language (PHP) and build/use a database
+
+	I used a lot of PHP to make this website and it used a database to function
+
+* Must implement CRUD functions, at minimum Read and Write to your database
+
+	Every page on my website uses either a read to my database or write to my database funtion.
+	Delete function coming soon.
+
+* Your code has comments
+
+	I tried to comment as much as possible. Some code is commented out for later reference
+	
+	below are the two type of comments you will find in my code: 
+	
+	//
+	//  Commented out for later reference
+	//
+
+	//!
+	//!	Comments explaining code blocks
+	//!  
+
+* You are welcome to use frameworks, packages, and other platforms along with your development. Feel free to use Bootstrap to help on the front-end work, but you must still customize the look in some way. Or if you want a chat function, you can use an existing Node package so you don’t recreate the wheel.
+
+	I actually used bootstrap for a lot of style but I also added my own CSS to cusomize my site.
+
+* It must include a README file
+
+	You are reading it!
+
+* Your project code is on your GitHub account in its own repository
+
+	Here it is!
+
+* Have Fun!
+
+	I always say "If you are not having fun, you are not doing it right!" and I'm definately proud to show off my code and paintings at the same time!
+
+
+
+I had zero experiance coding before I started with Code Louisville last year and I plan on coding as long as I can! 
+As an artist and musician, I have found coding to have many parallels with my current passions.  Coding has quickly
+become a new one for me!    
+
+
+
+
+
+
+
+
+
